@@ -1,0 +1,90 @@
+    /* App.css */
+    
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .slide {
+        width: 100%;
+        min-height: 300px;
+        border: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page-heading {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    
+    .app {
+        display: flex;
+        background-color: #ffcc00;
+    }
+    
+    .content {
+        flex: 1;
+        display: grid;
+        grid-template-rows: auto auto;
+        /* 2 rows */
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns */
+        gap: 30px;
+        /* Gap between grid items */
+        padding: 140px;
+    }
+    
+    .custom-style {
+        background-color: #ffcc00;
+        /* Custom background color */
+        color: aquamarine;
+        /* Custom text color */
+        font-weight: bold;
+        /* Custom font weight */
+        /* Add other custom styles here */
+    }
+    
+    .grid-bar {
+        /* Default styles for other grid bars */
+        padding: 1px;
+        border: 5px solid skyblue;
+    }
+    /* App.css */
+    /* ...existing styles... */
+    
+    .request-button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .request-button:hover {
+        background-color: #0056b3;
+    }
+    /* App.css */
+    /* ...existing styles... */
+    
+    .request-button {
+        background-color: grey;
+        color: white;
+        padding: 2px 2px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 1px;
+        transition: background-color 0.3s ease;
+        width: 100px;
+        max-height: 50px;
+    }
+    
+    .request-button:hover {
+        background-color: black;
+    }
+    /* ...existing styles... */

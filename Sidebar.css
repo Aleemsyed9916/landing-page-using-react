@@ -1,0 +1,66 @@
+/* Sidebar.css */
+
+.sidebar {
+    background-color: black;
+    width: 250px;
+    height: 400%;
+    padding-top: 20px;
+    padding-bottom: 350px;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    /* Add margin at the bottom of each list item */
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.sidebar-list li:hover {
+    background-color: #444;
+}
+
+.sidebar-list li svg {
+    margin-right: 10px;
+}
+
+.sidebar-heading {
+    color: skyblue;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #555;
+    /* Add a separator line */
+}
+
+.sidebar-bottom {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    /* Adjust padding as needed */
+    margin-top: 170px;
+    /* Align at the bottom of the sidebar */
+    border-top: 1px solid #555;
+    /* Add a separator line at the top */
+    text-align: left;
+    /* Center the text */
+}
+
+.bar {
+    padding: 10px;
+    /* Adjust padding as needed */
+    margin-bottom: 10px;
+    /* Adjust margin as needed */
+    background-color: #eee;
+    /* For illustration purposes */
+}
